@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(background.jpg);
+
+}
+
+
+.logo {
+  flex: 3;
+  color: orange;
+  font-size: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+  flex: 1;
+  padding-left: 4px;
+  text-align: center;
+  border-radius: 5px;
+  color: orange;
+  font-size: 17px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+nav a:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+
+}
+
+nav {
+  display: flex;
+  padding: .8em;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+
+
+.container {
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  padding: 20px;
+  background-color: #075e54;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#sub1 {
+  align-self: flex-start;
+}
+
+.message {
+  margin-bottom: 15px;
+  max-width: 65%;
+  padding: 10px 15px;
+  border-radius: 15px 15px 15px 0px;
+  word-wrap: break-word;
+  background-color: #075e54;
+}
+
+.user-message {
+  background-color: #075e54;
+  color: white;
+  margin-left: auto;
+  border-radius: 15px 15px 0px 15px;
+}
+
+.bottom {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid #075e54;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #075e54;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input::placeholder {
+  text-align: center;
+  font-size: small;
+  color: black;
+  padding-left: 10px;
+}
+
+#btn {
+  height: 40px;
+  font-size: small;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  width: 80px;
+  color: white;
+  background-color: #075e54;
+  cursor: pointer;
+}

@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(background.jpg);
+}
+
+.logo {
+  flex: 3;
+  color: orange;
+  font-size: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+  flex: 1;
+  padding-left: 4px;
+  text-align: center;
+  border-radius: 5px;
+  color: orange;
+  font-size: 17px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+nav a:hover {
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+
+}
+
+nav {
+  display: flex;
+  padding: .8em;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+}
+.container{
+  width: 600px;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.about {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  padding: 10px 10px;
+  background-image: linear-gradient(to left, white , orange);
+
+}
+.para{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 110px;
+font-size: 20px;
+}
+.mission h1{
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 140px;
+  padding: 30px 30px;
+  background-image: linear-gradient(to left, white , orange);
+
+}
+.mission p{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 160px;
+font-size: 20px;
+}
+footer{
+  position: relative;
+  top: 750px;
+  text-align: center;
+  color: blue;
+}
+footer h1{
+  color: aliceblue;
+}
+footer p{
+  color: white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginn.css">
+    <link rel="stylesheet" href="login.js">
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <div class="logo">E-learning</div>
+            <a href="index.html">SIGN UP</a>
+
+        </nav>
+    </div>
+    <div class="condent">
+        <div class="c1">Easy to learning</div>
+        <div class="c2">GET <span style="color: orange;">EDUCATED </span> ONLINE <br> FORM YOUR <span
+                style="color: orange;">HOME</span> . . . </div>
+        <div class="c3">By studying on this website, you can easily learn all
+            the tricks in a simple way and get a job in a top
+            company.</div> <br>
+    </div>
+    <div class="container">
+        <form method="POST" action="home.html" class="login-box">
+            <div class="login-header">
+                <header>Login</header>
+            </div>
+            <div class="input-box" id="username">
+                <input type="text" class="input-field" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="input-box" id="password">
+                <input type="password" class="input-field" placeholder="New password" autocomplete="off" required>
+            </div>
+
+
+            <div class="forgot">
+                <section>
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                </section>
+                <section>
+                    <a href="forgot.html">Forgot password</a>
+                </section>
+            </div>
+            <div class="input-submit">
+                <button class="submit-btn" id="submit" onclick="return login()"></button>
+                <label for="submit">Sign In</label>
+            </div>
+            <div class="Sign-Up-link">
+                <p>Don't have account? <a href="index.html">Sign Up</a></p>
+            </div>
+        </form>
+        <?php if ($message): ?>
+        <div class="message">
+            <?php echo $message; ?>
+        </div>
+        <?php endif; ?>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

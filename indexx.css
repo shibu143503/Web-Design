@@ -1,0 +1,207 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    background-size: cover;
+    height: 100vh;
+    background-image: url(background.jpg);
+
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.container{
+    width: 450px;
+    height: 540px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    border-radius: 100px;
+    padding: 25px;
+    display: flex;
+}
+#signup-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+    border-radius: 100px;
+
+}
+.signup-header{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.login-header header{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.input-box .input-field{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.05);
+    outline: none;
+    transform: .3s;
+}
+::placeholder{
+    font-weight: 500;
+    color: #222;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.input-submit{
+    position: relative;
+}
+.submit-btn{
+    width:100%;
+    height: 60px;
+    background: #222;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.input-submit label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color:#fff;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+cursor: pointer;
+}
+.submit-btn:hover{
+    background:orange;
+    transform: scale(1.05,1);
+}
+.Login-link{
+    text-align: center;
+    font-size: 15px;
+    margin-top:20px;
+}
+.Login-link a{
+    color: white;
+    font-weight: 600;
+
+}
+
+nav a {
+    text-decoration: none;
+    flex: 1;
+    padding-left: 4px;
+    text-align: center;
+    border-radius: 5px;
+    color: orange;
+    font-size: 17px;
+    margin-top: 20px;
+    padding-top: 5px;
+
+  }
+  
+  nav a:hover {
+    color: white;
+    text-decoration: none;
+    
+
+  }
+  
+  nav {
+    display: flex;
+    padding: .8em;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .logo {
+    flex: 3;
+    color: orange;
+    font-size: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    font-weight: 700;
+  }
+  
+  .contant {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    padding: 2em;
+    flex-wrap: wrap;
+  
+  
+  }
+  
+  .condent {
+    max-width: 500px;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    min-width:400px ;
+  }
+  .c1{
+    color: white;
+    letter-spacing: 2px;
+    padding-left:20px;
+    font-weight: bolder;
+    padding-top: 70px;
+  }
+  .c2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+
+  }
+  .c3{
+    padding-left: 20px;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 10px;
+  
+  }
+  .join{
+    justify-content: center;
+    padding: 20px;
+  }
+  .join a{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border: 5px orange;
+    padding: 10px;
+  }
+
+  
